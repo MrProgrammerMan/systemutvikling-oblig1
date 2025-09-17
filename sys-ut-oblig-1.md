@@ -28,17 +28,18 @@ Interressenter som skal benytte systemet er aktører.
 ### b
 Tabell over noen interressenter for systemet til Virtuoso Kino:
 | **Navn** | **Interesse** | **Eventuelt ansvarsområde** |
-| Utvikler | Ønsker å gjøre en god jobb og få betalt |  |
-| Leder av Virtuoso kino | Ønsker at systemet skal fungere og ikke være i veien slik at selskapet kan tjene penger på produktet sitt |  |
-| Kunde av virtuoso kino | Ønsker å kjøpe billetter til kino |  |
-| Administrator i Virtuoso kino | Ønsker å skaffe statistikk og legge inn filmer som skal vises |  |
-| Driftstekniker av systemet | Ønsker å kjøre systemet med minst mulig stans og behov for inngrep |  |
-| Produkteier av systemet | Ønsker å representere kundens behov under utvikling av systemet |  |
-| Medlem i kinoklubben(Altså Virtuoso kino sin) | Ønsker å samle poeng for kinobiletter |  |
-| Billettkontrollør | Ønsker å sjekke billetter |  |
-| Kioskarbeider | Ønsker å kunne selge biletter over disk |  |
-| Russisk hacker | Ønsker å stjele informasjon fra kinoen og få gratis billetter |  |
-| Betalingsleverandør | Ønsker å tilby sin tjeneste for å tjene penger |  |
+| --- | --- | --- |
+| Utvikler | Ønsker å gjøre en god jobb og få betalt | **TBA** |
+| Leder av Virtuoso kino | Ønsker at systemet skal fungere og ikke være i veien slik at selskapet kan tjene penger på produktet sitt | **TBA** |
+| Kunde av virtuoso kino | Ønsker å kjøpe billetter til kino | **TBA** |
+| Administrator i Virtuoso kino | Ønsker å skaffe statistikk og legge inn filmer som skal vises | **TBA** |
+| Driftstekniker av systemet | Ønsker å kjøre systemet med minst mulig stans og behov for inngrep | **TBA** |
+| Produkteier av systemet | Ønsker å representere kundens behov under utvikling av systemet | **TBA** |
+| Medlem i kinoklubben(Altså Virtuoso kino sin) | Ønsker å samle poeng for kinobiletter | **TBA** |
+| Billettkontrollør | Ønsker å sjekke billetter | **TBA** |
+| Kioskarbeider | Ønsker å kunne selge biletter over disk | **TBA** |
+| Russisk hacker | Ønsker å stjele informasjon fra kinoen og få gratis billetter | **TBA** |
+| Betalingsleverandør | Ønsker å tilby sin tjeneste for å tjene penger | **TBA** |
 
 ### c
 Av interressentene i tabellen i b kan vi si at alle ansatte i, og kunder av, Virtuoso Kino er aktører. (+ russisk hacker)
