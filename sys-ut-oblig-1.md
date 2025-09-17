@@ -18,7 +18,7 @@ Fordeler med eksisterende system:
 - Satsing/investering som kan slå feil.
 
 ### b
-Vi hadde valgt et eksisterende system, ettersom så og si all funksjonaliteten bedriften har behov for allerede finnes og fungerer godt. Det er ikke verdt kostnaden å gjenoppfinne hjulet.
+Vi hadde valgt et eksisterende system, ettersom så og si all funksjonaliteten bedriften har behov for allerede finnes og fungerer godt. Det er ikke verdt kostnaden å gjenoppfinne hjulet. Dette er basert på antakelsen at Virtuoso Kino uansett skal ha et nytt system. Dersom de istedenfor allerede har en løsning som de kun vil modifisere kan det være billigere og enklere å gjøre dette fremfor å lage nytt, men dette avhenger veldig av det eksisterende systemet. Her måtte vi undersøkt dette for å gi et godt svar.
 
 ## Oppgave 2
 ### a
