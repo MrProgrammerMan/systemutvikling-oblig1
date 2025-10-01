@@ -27,17 +27,16 @@ Interressenter som skal benytte systemet er aktører.
 Tabell over noen interressenter for systemet til Virtuoso Kino:
 | **Navn** | **Interesse** | **Eventuelt ansvarsområde** |
 | --- | --- | --- |
-| Utvikler | Ønsker å gjøre en god jobb og få betalt | **TBA** |
-| Leder av Virtuoso kino | Ønsker at systemet skal fungere og ikke være i veien slik at selskapet kan tjene penger på produktet sitt | **TBA** |
-| Kunde av virtuoso kino | Ønsker å kjøpe billetter til kino | **TBA** |
-| Administrator i Virtuoso kino | Ønsker å skaffe statistikk og legge inn filmer som skal vises | **TBA** |
-| Driftstekniker av systemet | Ønsker å kjøre systemet med minst mulig stans og behov for inngrep | **TBA** |
-| Produkteier av systemet | Ønsker å representere kundens behov under utvikling av systemet | **TBA** |
-| Medlem i kinoklubben(Altså Virtuoso kino sin) | Ønsker å samle poeng for kinobiletter | **TBA** |
-| Billettkontrollør | Ønsker å sjekke billetter | **TBA** |
-| Kioskarbeider | Ønsker å kunne selge biletter over disk | **TBA** |
-| Russisk hacker | Ønsker å stjele informasjon fra kinoen og få gratis billetter | **TBA** |
-| Betalingsleverandør | Ønsker å tilby sin tjeneste for å tjene penger | **TBA** |
+| Utvikler | Ønsker å gjøre en god jobb og få betalt | Ansvarlig for at systemet oppfyller kravene og oppfører seg som forventet på et teknisk nivå. |
+| Leder av Virtuoso kino | Ønsker at systemet skal fungere og ikke være i veien slik at selskapet kan tjene penger på produktet sitt | Ansvarlig for kinoen i sin helhet. |
+| Kunde av virtuoso kino | Ønsker å kjøpe billetter til kino | Ikke ansvarlig i det store og det hele. Eventuelt ansvarlig i henhold til avtale ved kjøp. |
+| Administrator i Virtuoso kino | Ønsker å skaffe statistikk og legge inn filmer som skal vises | Ansvarlig for å presentere informasjon om kinooens salg og annet. |
+| Driftstekniker av systemet | Ønsker å kjøre systemet med minst mulig stans og behov for inngrep | Ansvarlig for at systemet fungerer driftsmessig. |
+| Produkteier av systemet | Ønsker å representere kundens behov under utvikling av systemet | Ansvarlig for at kundens behov blir dekket av produktet. |
+| Medlem i kinoklubben(Altså Virtuoso kino sin) | Ønsker å samle poeng for kinobiletter | Ikke ansvarlig i det store og det hele. Eventuelt ansvarlig i henhold til avtale ved kjøp. |
+| Billettkontrollør | Ønsker å sjekke billetter | Ansvarlig for at folk ikke blir sluppet inn på kinoen uten gyldig billett. |
+| Kioskarbeider | Ønsker å kunne selge biletter over disk | Ansvarlig for å selge billetter over disk. |
+| Betalingsleverandør | Ønsker å tilby sin tjeneste for å tjene penger | Ansvarlig for en fungerende og pålitelig betalingstjeneste. |
 
 ### c
 Av interressentene i tabellen i b kan vi si at alle ansatte i, og kunder av, Virtuoso Kino er aktører.
