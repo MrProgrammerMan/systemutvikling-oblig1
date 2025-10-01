@@ -1,5 +1,7 @@
 # Oblig 1 - Systemutvikling
-Jonas, Bjørnar, Jørgen
+Jonas Hazeland Baugerud - jobau8311
+Bjørnar Reime - bjrei3390
+Jørgen Eide Anskau - joans6553
 
 ## Oppgave 1
 ### a
