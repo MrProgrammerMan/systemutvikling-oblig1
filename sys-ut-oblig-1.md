@@ -148,10 +148,23 @@ Vi mener at for Virtuoso kino passer en tidsboksbasert tidsflyt best. Dette er f
 
 ## a)
 
-Prioritert liste med 6 brukerhistorier:
+Prioritert liste med 6 brukerhistorier(funksjonelle krav):
 1. Som kunde ønsker jeg å enkelt kunne kjøpe billetter til VR-kino slik at jeg kan få en unik og underholdene opplevelse.
 2. Som kunde ønsker jeg flere alternativer for å se og laste ned billetten min slik at jeg kan velge det som passer meg best når det er billettkontroll.
 3. Som medlem ønsker jeg å se de oppsparte poengene mine slik at jeg kan vite når jeg kan dra på kino gratis.
 4. Som administrator ønsker jeg å enkelt kunne hente ut statistikk om visninger slik at jeg kan hjelpe kinoen å glede kundene best mulig.
 5. Som leder ønsker jeg å kunne se de totale salgene våre slik at jeg kan få et overblikk over økonomien til kinoen.
 6. Som administrator ønsker jeg et system som er enkelt å bruke slik at jeg kan bruke minst mulig jobb på å drifte det.
+
+## b)
+
+Ikke-funksjonelle krav:
+Produktkrav:
+- Systemet skal laste inn kjøpesiden på under 3 sekunder for 95% av brukerne.
+
+Organisatoriske krav:
+- Systemet skal være enkelt å vedlikeholde av driftsteknikere, og ha dokumentasjon på serveroppsett.
+
+Ekstrene krav:
+- Systemet skal følge GDPR og beskytte kundedata mot uautorisert tilgang.
+- Systemet skal kunne kommunisere sikkert med eksterne betalingsleverandører (HTTPS, kryptering).
