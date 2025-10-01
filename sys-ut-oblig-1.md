@@ -174,3 +174,96 @@ Ytelsen kan testes med en automatisert test som laster siden og ser hvor lang ti
 Dokumentasjonen for vedlikehold av systemet kan testes ved at man observerer en ny tekniker som forsøker å bruke systemet og dokumentasjonen.
 Dette kan sjekkes både ved å undersøke hvordan data lagres i henhold til reglene, og ved eksterne pen-tester og undersøkelser fra eksterne selskaper.
 De fleste betalingsleverandører tilbyr et sandbox-miljø som kan brukes til å teste integrasjonen med de.
+
+# OPPGAVE 5
+
+## a)
+
+Se vedlegg.
+
+## b)
+
+Dette er et veldig simpelt use case diagram som ikke bryter ned oppgavene til de forskjellige aktørene stort. 
+
+For kunde:
+1. Kjøp billett(hovedflyt):
+  - Aktør: kunde
+  - Pre-betingelser: Kunden vil ha en billett og har en betalingsmetode tilgjengelig.
+  - Post-betingelser: Kunden har fått tilgang til en gyldig billett.
+    - Kunden velger detaljer for billetten de vil ha; film, tidspunkt, sete, osv.
+    - Kunden gir betalingsinformasjon
+    - Systemet prosesserer forespørselen
+    - Systemet generer billetten til kunden
+    - Systemet gir kunden tilgang til billetten
+2. Kjøp billett (alternativ flyt)
+  - Kunden velger detaljer for billetten de vil ha; film, tidspunkt, sete, osv.
+  - Kunden gir betalingsinformasjon
+  - Systemet prosesserer forespørselen
+  - Betalingen feiler
+  - Systemet gir mulighet for kunden til å prøve igjen
+3. Se billett(hovedflyt):
+  - Aktør: kunde
+  - Pre-betingelser: Kunden har kjøpt en billett.
+  - Post-betingelser: Kunden får se ønsker billett.
+    - Kunden oppgir innloggingsinformasjon.
+    - Systemet bekrefter kundens identitet.
+    - Kunden ber systemet om billeten.
+    - Systemet henter billetten.
+    - Systemet presenterer billetten for kunden.
+4. Se billett(alternativ flyt):
+  - Kunden kontaker personale og identifiserer seg.
+  - Personale søker etter kunden i systemet.
+  - Systemet finner billetter som tilhører kunden.
+  - Personale bekrefter billetten kunden ser etter.
+  - Personale viser kunden billetten.
+5. Last ned billett(hovedflyt):
+  - Aktør: Kunde
+  - Pre-betingelser: Kunden har kjøpt en billett.
+  - Post-betingelser: Kunden har en nedlastet kopi av billetten.
+    - Kunden oppgir innloggingsinformasjon.
+    - Systemet bekrefter kundens identitet.
+    - Kunden ber systemet om å laste ned billeten.
+    - Systemet henter billetten.
+    - Systemet klargjør en nedlastet kopi av billetten.
+    - Systemet gjør kunden oppmerksom på den nedlastede kopien.
+6. Se poeng(hovedflyt):
+  - Aktør: medlem
+  - Pre-betingelser: Ingen betingelser så lenge aktøren er medlem.
+  - Post-betingelser: Medlemmet vet hvor mange poeng de har.
+    - Medlemmet oppir innlogginsinformasjon.
+    - Systemet bekrefter medlemmets identitet.
+    - Medlemmet ber om antall poeng.
+    - Systemet henter antall poeng medlemmet har.
+    - Systemet presenterer antall poeng for medlemmet.
+7. Legge inn film(hovedflyt):
+  - Aktør: administrator
+  - Pre-betingelser: Administratoren har all nødvendig informasjon om filmen.
+  - Post-betingelser: Filmen er i systemet og det er klart for at kunder kan kjøpe billetter til den.
+    - Administratoren oppgir innlogginsinformasjon.
+    - Systemet bekrefter administratorens identitet.
+    - Administratoren ber systemet opprette film.
+    - Systemet ber administratoren om nødvendig informasjon.
+    - Administratoren oppgir informasjon.
+    - Systemet verifiserer at informasjonen er gyldig.
+    - Systemet oppretter filmen.
+    - Systemet informerer administratoren om at filmen er opprettet.
+8. Hente ut statistikk(hovedflyt):
+  - Aktør: administrator
+  - Pre-betingelser: Administratoren vet hva slags statistikk som skal hentes og systemet har samlet denne statistikken.
+  - Post-betingelser: Administratoren har blitt presentert med statistikken.
+    - Administratoren oppgir innlogginsinformasjon.
+    - Systemet bekrefter administratorens identitet.
+    - Administratoren ber systemet hente statistikk.
+    - Systemet henter statistikken.
+    - Systemet organiserer statistikken slik at den kan hentes ut.
+    - Systemet presenterer statistikken til administratoren.
+9. Se totale salg(hovedflyt):
+  - Aktør: leder
+  - Pre-betingelser: Ingen.
+  - Post-betingelser: Lederen har blitt presentert totale salg.
+    - Leder oppgir innlogginsinformasjon.
+    - Systemet bekrefter leders identitet.
+    - Leder ber om totale salg.
+    - Systemet henter relevant informasjon.
+    - Systemet behandler informasjonen for å finne totale salg.
+    - Systemet presenterer leder med totale salg.
