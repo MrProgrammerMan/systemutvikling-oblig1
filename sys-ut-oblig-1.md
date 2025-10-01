@@ -135,3 +135,7 @@ nedenfor har vi laget en punktliste som bedre fremhever enkelte forskjeller.
 | **Endringer**     | Kan skje når som helst | Sprinten er låst for nye oppgaver |
 | **WIP-grenser**   | Ja (f.eks. maks 3 i progress) | Ikke eksplisitt, men sprinten setter en ramme |
 | **Fokus**         | Flyt og jevn produksjon | Tydelige mål per sprint |
+
+## c)
+
+Kravspesifikasjon kan alltid endre seg i løpet av prosjektet. Dette er den vanligste grunnen til at man velger en smidig utviklingsprosess. Det hender ved plandrevne prosessmodeller at kunden og utviklerne ikke har hatt samme idé om hvordan produktet skal se ut. I så tilfelle kan det hende man ikke oppdager feilen før etter at produktet er ferdigstilt. Dette er enormt tidkrevende og dyrt. Fordelen med en smidig prosess med kontinuerlig levering er at man kan tilpasse seg underveis med hyppig feedback fra kunden. Virtuoso kino ønsker å tilby noe som er unikt i markedet, og trenger derfor en ny løsning. Dette kommer med iboende risiko for at man oppdager noe nytt underveis som man må ta høyde for. Eksempelvis kan man ved brukertesting oppdage at noe fungerer bedre/dårligere enn forventet og ønske å tilpasse produktet deretter. I en smidig utvilkingsprosess burde man alltid være klar for slike endringer.
