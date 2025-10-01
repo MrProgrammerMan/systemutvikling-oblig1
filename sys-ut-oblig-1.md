@@ -44,9 +44,9 @@ Tabell over noen interressenter for systemet til Virtuoso Kino:
 Av interressentene i tabellen i b kan vi si at alle ansatte i, og kunder av, Virtuoso Kino er aktører.
 Disse interressentene skal benytte systemet i normal drift etter at utviklingen er ferdig. I teorien, dersom det aldri trengs oppdateringer, vil ikke de andre interressentene ha noe å gjøre med systemet etter at det er ferdigutviklet. Unntaket er betalingsleverandøren, men her er det Virtuoso Kino som benytter seg av deres tjeneste, ikke motsatt.
 
-# OPPGAVE 3
+## OPPGAVE 3
 
-## a)
+### a)
 
 **Plandrevne prosessmodeller** er en utviklingsmodell
 hvor man følger en oppskrift med nøyaktig rekkefølge av oppgaver for å nå målet.
@@ -56,7 +56,7 @@ Fremgangsmetoden er her såkalt sekvensiell, altså at man gjør seg helt ferdig
 og dermed enkelt kan endre retning for produktet underveis.
 Fremgangsmetoden her er ofte SCRUM eller lignende, hvor man jobber over flere utviklingsfaser samtidig.
 
-## b)
+### b)
 
  <u> Hovedforskjellene: </u>
 
@@ -74,9 +74,9 @@ her planlegger man for hver sprint, som reduserer usikkerhet og retning i prosje
 nedenfor har vi laget en punktliste som bedre fremhever enkelte forskjeller.
 
 
-# Kanban vs Scrum
+#### Kanban vs Scrum
 
-##  Forskjeller
+#####  Forskjeller
 
 | **Kategori**      | **Kanban** | **Scrum** |
 |-------------------|------------|------------|
@@ -89,17 +89,17 @@ nedenfor har vi laget en punktliste som bedre fremhever enkelte forskjeller.
 | **WIP-grenser**   | Ja (f.eks. maks 3 i progress) | Ikke eksplisitt, men sprinten setter en ramme |
 | **Fokus**         | Flyt og jevn produksjon | Tydelige mål per sprint |
 
-## c)
+### c)
 
 Kravspesifikasjon kan alltid endre seg i løpet av prosjektet. Dette er den vanligste grunnen til at man velger en smidig utviklingsprosess. Det hender ved plandrevne prosessmodeller at kunden og utviklerne ikke har hatt samme idé om hvordan produktet skal se ut. I så tilfelle kan det hende man ikke oppdager feilen før etter at produktet er ferdigstilt. Dette er enormt tidkrevende og dyrt. Fordelen med en smidig prosess med kontinuerlig levering er at man kan tilpasse seg underveis med hyppig feedback fra kunden. Virtuoso kino ønsker å tilby noe som er unikt i markedet, og trenger derfor en ny løsning. Dette kommer med iboende risiko for at man oppdager noe nytt underveis som man må ta høyde for. Eksempelvis kan man ved brukertesting oppdage at noe fungerer bedre/dårligere enn forventet og ønske å tilpasse produktet deretter. I en smidig utvilkingsprosess burde man alltid være klar for slike endringer.
 
-## d)
+### d)
 
 Vi mener at for Virtuoso kino passer en tidsboksbasert tidsflyt best. Dette er fordi scrum er laget for kontinuerlig levering og vil gjøre det enkelt å få hyppig og effektiv feedback fra brukerne av systemet. Dette er nyttig, siden systemet løser et problem ingen har hatt før. Det kan likevel være gunstig å benytte kanban innad i sprintene for å holde oversikt over oppgaver som må løses. På denne måten holder man hyppig kontakt med kunden, og god oversikt over arbeidet innad i teamet.
 
-# OPPGAVE 4
+## OPPGAVE 4
 
-## a)
+### a)
 
 Prioritert liste med 6 brukerhistorier(funksjonelle krav):
 1. Som kunde ønsker jeg å enkelt kunne kjøpe billetter til VR-kino slik at jeg kan få en unik og underholdene opplevelse.
@@ -109,7 +109,7 @@ Prioritert liste med 6 brukerhistorier(funksjonelle krav):
 5. Som administrator ønsker jeg å enkelt kunne hente ut statistikk om visninger slik at jeg kan hjelpe kinoen å glede kundene best mulig.
 6. Som leder ønsker jeg å kunne se de totale salgene våre slik at jeg kan få et overblikk over økonomien til kinoen.
 
-## b)
+### b)
 
 Ikke-funksjonelle krav:
 Produktkrav:
@@ -122,19 +122,19 @@ Ekstrene krav:
 - Systemet skal følge GDPR og beskytte kundedata mot uautorisert tilgang.
 - Systemet skal kunne kommunisere sikkert med eksterne betalingsleverandører (HTTPS, kryptering).
 
-## c)
+### c)
 Ytelsen kan testes med en automatisert test som laster siden og ser hvor lang tid det tar.
 Dokumentasjonen for vedlikehold av systemet kan testes ved at man observerer en ny tekniker som forsøker å bruke systemet og dokumentasjonen.
 Dette kan sjekkes både ved å undersøke hvordan data lagres i henhold til reglene, og ved eksterne pen-tester og undersøkelser fra eksterne selskaper.
 De fleste betalingsleverandører tilbyr et sandbox-miljø som kan brukes til å teste integrasjonen med de.
 
-# OPPGAVE 5
+## OPPGAVE 5
 
-## a)
+### a)
 
 Se vedlegg.
 
-## b)
+### b)
 
 Dette er et veldig simpelt use case diagram som ikke bryter ned oppgavene til de forskjellige aktørene stort. 
 
