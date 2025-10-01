@@ -168,3 +168,9 @@ Organisatoriske krav:
 Ekstrene krav:
 - Systemet skal følge GDPR og beskytte kundedata mot uautorisert tilgang.
 - Systemet skal kunne kommunisere sikkert med eksterne betalingsleverandører (HTTPS, kryptering).
+
+## c)
+Ytelsen kan testes med en automatisert test som laster siden og ser hvor lang tid det tar.
+Dokumentasjonen for vedlikehold av systemet kan testes ved at man observerer en ny tekniker som forsøker å bruke systemet og dokumentasjonen.
+Dette kan sjekkes både ved å undersøke hvordan data lagres i henhold til reglene, og ved eksterne pen-tester og undersøkelser fra eksterne selskaper.
+De fleste betalingsleverandører tilbyr et sandbox-miljø som kan brukes til å teste integrasjonen med de.
