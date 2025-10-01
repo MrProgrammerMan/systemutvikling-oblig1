@@ -142,4 +142,4 @@ Kravspesifikasjon kan alltid endre seg i løpet av prosjektet. Dette er den vanl
 
 ## d)
 
-Vi mener at for Virtuoso kino passer en tidsboksbasert tidsflyt best. Dette er fordi scrum er laget for kontinuerlig levering og vil gjøre det enkelt å få hyppig og effektiv feedback fra brukerne av systemet. Dette er nyttig, siden systemet løser et problem ingen har hatt før.
+Vi mener at for Virtuoso kino passer en tidsboksbasert tidsflyt best. Dette er fordi scrum er laget for kontinuerlig levering og vil gjøre det enkelt å få hyppig og effektiv feedback fra brukerne av systemet. Dette er nyttig, siden systemet løser et problem ingen har hatt før. Det kan likevel være gunstig å benytte kanban innad i sprintene for å holde oversikt over oppgaver som må løses. På denne måten holder man hyppig kontakt med kunden, og god oversikt over arbeidet innad i teamet.
